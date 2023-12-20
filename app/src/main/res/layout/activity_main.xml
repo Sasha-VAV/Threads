@@ -10,16 +10,18 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/TV"
-        android:background="@color/material_dynamic_neutral90"
-        android:hint="There will be a text">
-    </TextView>
+        android:background="@color/material_dynamic_neutral80"
+        android:textColor="@color/black"
+        android:hint="There will be a text"></TextView>
+
     <Button
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:id="@+id/butt">
-    </Button>
+        android:hint="CLICK ME"
+        android:textColor="@color/black"
+        android:id="@+id/butt"></Button>
 
 </LinearLayout>
